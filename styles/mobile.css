@@ -1,5 +1,73 @@
 @media only screen and (max-width: 640px) {
-    body{
-        background-color: aqua;
+    .containerFlexHeader {
+        height: 80px;
+    }
+
+    .container {
+        width: 600px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        width: 100px;
+        margin-left: 5px;
+    }
+
+    ul {
+        display: block;
+        margin-right: 50px;
+    }
+
+    li {
+        margin-right: 16px;
+        line-height: 25px;
+    }
+
+    .containerFlexMain {
+        display: block;
+    }
+
+    main>div>img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    img.size {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-bottom: 5px;
+    }
+
+    .containerGrid {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    h3 {
+        margin-bottom: 2px;
+        margin-left: 0px;
+    }
+
+    main>section>div>div>section>p {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    button {
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%;
+
+        background-color: rgb(40, 106, 250);
+        border: none;
+        color: white;
+        height: 30px;
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
     }
 }

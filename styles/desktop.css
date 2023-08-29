@@ -94,6 +94,7 @@ button {
     margin: 16px 0px 20px 0px;
     width: 95%;
 
+    border-radius: 5px;
     background-color: rgb(40, 106, 250);
     border: none;
     color: white;
