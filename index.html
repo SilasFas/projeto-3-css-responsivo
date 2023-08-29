@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício CSS Responsivo</title>
     <link rel="stylesheet" href="styles/desktop.css">
-    <link rel="stylesheet" href="styles/tablet.css" >
+    <link rel="stylesheet" href="styles/tablet.css">
     <link rel="stylesheet" href="styles/mobile.css">
 </head>
 
@@ -17,10 +17,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>
+                        <a href="#" id="store">Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#">Produtos</a>
+                        <a href="#" id="products">Produtos</a>
                     </li>
                 </ul>
             </nav>
@@ -30,7 +30,7 @@
         <div id="presentation" class="container containerFlexMain">
             <img src="images/shoes.jpg" alt="shoes">
             <section>
-                <h2>Sobre a loja</h2>
+                <h2 id="aboutStore">Sobre a loja</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cupiditate sint, aliquam at ab in
                     necessitatibus qui, consequuntur eum sequi blanditiis vitae ipsa numquam dignissimos quos cumque
                     laboriosam maiores minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla mollitia
@@ -42,7 +42,7 @@
         </div>
         <section>
             <div class="container">
-                <h2>Produtos</h2>
+                <h2 id="buyProducts">Produtos</h2>
                 <div class="containerGrid">
                     <section>
                         <img src="images/shoe (1).jpg" alt="red shoe" class="size">
@@ -72,6 +72,8 @@
             </div>
         </section>
     </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
